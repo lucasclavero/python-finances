@@ -83,10 +83,8 @@ class Statement:
             transfer_amount = transfer.amount
             for name in names:
                 if name.lower() == "sk":
-                    # salary kalle
                     self.salary = self.salary + transfer.amount
                 elif name.lower() == "be":
-                    # buisiness expense
                     self.buisiness_expenses = self.buisiness_expenses + transfer.amount
                 elif name.lower() == "e":
                     self.errors = self.errors + transfer.amount
