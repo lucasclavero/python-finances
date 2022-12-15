@@ -1,0 +1,46 @@
+{
+    "Transactions": [
+        {
+            "account_number": "CREDITO",
+            "amount": 300.0,
+            "date": "2022-12-15",
+            "ending_balance": 2621.79,
+            "name": "TRANSF "
+        },
+        {
+            "account_number": "CREDITO",
+            "amount": 500.0,
+            "date": "2022-12-15",
+            "ending_balance": 2321.79,
+            "name": "TRANSF "
+        },
+        {
+            "account_number": "CREDITO",
+            "amount": 100.0,
+            "date": "2022-12-15",
+            "ending_balance": 1821.79,
+            "name": "TRANSF "
+        },
+        {
+            "account_number": "Nro:00000008",
+            "amount": -19000.0,
+            "date": "2022-11-02",
+            "ending_balance": 1721.79,
+            "name": "TRANSFERENCIA XX3506552006952 "
+        },
+        {
+            "account_number": "Nro:11110008",
+            "amount": 20000.0,
+            "date": "2022-11-02",
+            "ending_balance": 20721.79,
+            "name": "TRANSFERENCIA 27312706291 "
+        },
+        {
+            "account_number": "GANADOS",
+            "amount": 0.03,
+            "date": "2022-08-01",
+            "ending_balance": 721.79,
+            "name": "INTERESES "
+        }
+    ]
+}
