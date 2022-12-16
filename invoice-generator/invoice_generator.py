@@ -3,8 +3,11 @@ from tempfile import NamedTemporaryFile
 from InvoiceGenerator.api import Invoice, Item, Client, Provider, Creator
 from InvoiceGenerator.pdf import SimpleInvoice
 import datetime
+import sys
 
-rate = 2950
+
+rate = 10
+# rate = sys.argv[0]
 
 
 
