@@ -1,5 +1,6 @@
 import datetime
 
+
 def statement_from_json(json):
     return Statement(
         json["date"],

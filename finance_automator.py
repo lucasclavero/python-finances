@@ -123,20 +123,20 @@ for stat_ in statements:
     taxes_paid = taxes_paid + stat_.tax_paid
     total_withdrawls = total_withdrawls + stat_.withdrew
 
-total_taxes = (salary_taken / 2) * 3 - taxes_paid
+total_taxes = (total_income * 21 ) / 100 - taxes_paid
 total_withdrawls = total_withdrawls - taxes_paid
-total_net_income = (total_income + total_expenses) + salary_taken + (total_taxes)
+total_net_income = (total_income + total_expenses) + salary_taken - (total_taxes)
 potential_salary = (total_net_income + taxes_paid) * 0.4
-balance = round((total_net_income + total_withdrawls), 1)
+
 
 print("\n"*3)
 print("Total income: " + str(total_income) )
 print("Total NET income: " + str(total_net_income))
-print("Total expenses: " + str(total_expenses))
+# print("Total expenses: " + str(total_expenses))
 print("Total tax to pay: " + str(total_taxes))
-print("Salary taken: " + str(salary_taken))
+# print("Salary taken: " + str(salary_taken))
 print("Total withdrawls: " + str(total_withdrawls))
-print("Balance: "+ str(balance))
+# print("Balance: "+ str(balance))
 print("\n"*3)
 
 
